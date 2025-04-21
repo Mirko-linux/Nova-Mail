@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMail - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>NovaMail</h2>
+        <ul>
+            <li id="inbox">📥 Posta in arrivo</li>
+            <li id="compose">✏️ Scrivi</li>
+            <li>📂 Bozze</li>
+            <li>🚀 Inviati</li>
+        </ul>
+    </div>
+    
+    <div class="main">
+        <div class="email-list">
+            <h3>Ultime email</h3>
+            <div class="email"><strong>Mario Rossi</strong> - "Progetto NovaMail..."</div>
+            <div class="email"><strong>Giulia Bianchi</strong> - "Aggiornamenti..."</div>
+        </div>
+        <div class="editor">
+            <textarea id="emailContent" placeholder="Scrivi la tua email..."></textarea>
+            <button id="sendEmail">Invia ✉️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
